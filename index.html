@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Where We Met — A Map of Us</title>
+<title>711</title>
 
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#2e2015">
@@ -12,7 +12,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Where We Met">
+<meta name="apple-mobile-web-app-title" content="711">
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -423,7 +423,7 @@
 </div>
 
 <header>
-  <h1>Where We Met</h1>
+  <h1>711</h1>
   <span class="thread"></span>
   <p>every pin is a place we became "us"</p>
   <div class="tabs">
@@ -511,14 +511,14 @@
   // Firebase Console → Project settings → General → "Your apps" → Web app
   // (console.firebase.google.com — free "Spark" plan is plenty for this)
   // ======================================================================
-const firebaseConfig = {
-  apiKey: "AIzaSyCW3eeWHWRv63_lw-i-R33h00YijEiZuuw",
-  authDomain: "where-we-meet-36650.firebaseapp.com",
-  projectId: "where-we-meet-36650",
-  storageBucket: "where-we-meet-36650.firebasestorage.app",
-  messagingSenderId: "876291796757",
-  appId: "1:876291796757:web:01b4fc9f8538ec9d0d831c"
-};
+  const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_PROJECT.firebaseapp.com",
+    projectId: "YOUR_PROJECT",
+    storageBucket: "YOUR_PROJECT.appspot.com",
+    messagingSenderId: "YOUR_SENDER_ID",
+    appId: "YOUR_APP_ID"
+  };
   // ======================================================================
 
   const isConfigured = firebaseConfig.apiKey !== "YOUR_API_KEY";
